@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт</title>
+	<link href="style.css" rel="stylesheet">
+  </head>
+ <body bgcolor = "#ff1230a">
+
+
+	<div class ="q1">
+	 <img src='x.jpg'>
+	</div>
+	<div class ="q2">
+	<? if (!isset($_reqvest['go'])){?>
+	<form action="<?=$_server['scrupt_name']?>">
+	имя:<input type=text name"login" value=""> <br>
+	пароль:<input type=pasword name"pass" value=""> <br>
+	<input type=submit name"go" value="нажми">
+	</form>
+	<?}else{
+	if($_reqvest['login']=="root"&&$_reqvest['pass']=="111"){
+	echo "доступ открыт"
+	else
+	echo"нет доступа"
+	?>}
+	</div>
+	<div class ="q3">
+	<a href ="index.html"><h1>ДОБРО ПОЖАЛОВАТЬ :)</h1></a>
+	</div>
+	<div class ="q4">
+	</div>
+	<div class ="q6">
+	</div>
+	<div class ="q7">
+	</div>
+	<div class ="q8">
+	</div>
+ </body>
+ </html>

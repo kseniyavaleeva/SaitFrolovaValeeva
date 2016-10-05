@@ -1,0 +1,120 @@
+.q1{
+	position:absolute;
+	background-color:blue-space;
+	width:150px;
+	height:100px;
+	opacity:0.7;
+	border-style:solid;
+	border-radius:14px;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+	text-align:center;
+	font-family:impact;
+	line-height:46px;
+	font-size:30px;
+}
+.q1:active{
+	position:absolute;
+	background-color:blue-space;
+	width:150px;
+	height:100px;
+	opacity:0.7;
+	border-style:solid;
+	border-radius:14px;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+	text-align:center;
+	font-family:impact;
+	line-height:46px;
+	font-size:30px;
+}
+.q2{
+	font-family:impact;
+	position:absolute;
+	background-color:blue-space;
+	background-image:url(3.jpg);
+	width:204px;
+	height:150px;
+	left:1410px;
+	opacity:0.9;
+	border-style:solid;
+	border-radius:14px;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+	text-align:right;
+}
+.q3{
+	position:absolute;
+	background-color:blue-space;
+	width:1040px;
+	height:140px;
+	left:280px;
+	top:50px;
+	opacity:0.9;
+	border-style:solid;
+	border-radius:14px;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+}
+.q4{
+	position:absolute;
+	background-color:blue-space;
+	width:250px;
+	height:570px;
+	top:130px;
+	opacity:0.9;
+	border-style:solid;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+}
+.q6{
+	position:absolute;
+	background-color:blue-space;
+	width:240px;
+	height:470px;
+	left:1340px;
+	opacity:0.9;
+	top:230px;
+	border-style:solid;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+}
+.q7{
+	position:absolute;
+	background-color:blue-space;
+	width:870px;
+	height:80px;
+	left:360px;
+	top:258px;
+	opacity:0.9;
+	border-style:solid;
+	border-radius:14px;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+}
+.q8{
+	position:absolute;
+	background-color:purple-space;
+	width:1000px;
+	height:350px;
+	top:350px;
+	opacity:0.9;
+	left:300px;
+	border-style:solid;
+	border-radius:14px;
+	box-shadow:2px 4px 9px 2px #a0facd;
+	border:none;
+	word-break:break-all;
+}
+@font-face {
+font-family:glyphicons-halflings-regular; /* имя шрифта для CSS правил */
+src:local("glyphicons-halflings-regular"), /* проверяем наличие шрифта в ОС пользователя */
+url(fonts/glyphicons-halflings-regular.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
